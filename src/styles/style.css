@@ -176,3 +176,61 @@ section {
   margin-bottom: 16px;
   color: #fe8a02;
 }
+#ikea-effect {
+  background: var(--Светлый);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+#ikea-effect::before {
+  content: url(/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.light-section {
+  column-count: 2;
+  column-gap: 30px;
+  
+}
+.img-ikea {
+  width: 578px;
+  height: 434px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+.wrapper-light-section {
+  margin-left: 38px;
+}
+.light-paragraph {
+  font-family: 'Neucha', cursive;
+  font-size: 24px;
+  color: var(--Полупрозрачный-тёмный);
+}
+.light-header {
+  margin-bottom: 30px;
+  color: var(--Тёмный);
+}
+.wrapper-light-section > h3 {
+  color: var(--Тёмный);
+}
+.wrapper-light-header {
+  font-size: 14px ;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: var(--белый);
+  display: block;
+  background-color: var(--Коричневый);
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 0px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.light-footer {
+  column-count: 2;
+  column-gap: 30px;
+}
