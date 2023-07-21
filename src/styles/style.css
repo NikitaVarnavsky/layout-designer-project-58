@@ -65,7 +65,7 @@ section {
   z-index: 1;
 }
 .header::before {
-  content: url(../images/background.png);
+  content: url(/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -126,4 +126,53 @@ section {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
   bottom: -200px;
+}
+#navigation {
+  background-color: var(--Основной-тёмный);
+}
+.third-section {
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header-navigation {
+  line-height: 1.2em;
+  font-family: 'Neucha', cursive;
+  font-size: 52px;
+  font-weight: 400;
+  width: 350px;
+  margin-bottom: 20px;
+  /* line-height: 1.6em; */
+  color: var(--Основной);
+}
+.third-section-diff {
+  color: var(--белый);
+}
+.card {
+  display: block;
+  padding: 24px;
+  width: 350px;
+  background-color: var(--Светлый);
+  text-decoration: none;
+  color: var(--Тёмный);
+  margin-bottom: 20px ;
+}
+.card:hover {
+  background-color: var(--Основной);
+  color: var(--белый);
+  .card-header {
+    color: var(--белый);
+  }
+}
+.number {
+  font-family: 'Neucha', cursive;
+  font-size: 64px;
+  line-height: 1;
+  margin-bottom: 40px;
+
+}
+.card-header {
+  margin-bottom: 16px;
+  color: #fe8a02;
 }
