@@ -234,3 +234,57 @@ section {
   column-count: 2;
   column-gap: 30px;
 }
+#premature-optimization {
+  background: var(--Коричневый);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+#premature-optimization::before {
+  content: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+}
+.dark-section {
+  column-count: 2;
+  column-gap: 30px;
+}
+.premature-optimization-paragraph {
+  font-family: 'Neucha', cursive;
+  font-size: 24px;
+  color: var(--Полупрозрачный-белый);
+}
+.premature-optimization-header {
+  margin-bottom: 30px;
+  color: var(--белый);
+}
+
+.wrapper-premature-optimization-section > h3 {
+  color: var(--белый);
+}
+
+.img-premature-optimization {
+  margin-left: -38px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+.wrapper-dark-header {
+  font-size: 14px ;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: var(--Коричневый);
+  display: block;
+  background-color: var(--белый);
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 0px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.dark-footer {
+  column-count: 2;
+  column-gap: 30px;
+  color: var(--белый);
+}
