@@ -342,3 +342,67 @@ section {
 .img-errors-in-planning {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+.data-footer {
+  background-color: var(--Основной-тёмный);
+  column-count: 2;
+  column-gap: 30px;
+  color: var(--белый);
+  padding: 55px 55px;
+}
+.data-footer > h3 {
+  color: var(--белый);
+}
+.footer-input {
+  height: 50px;
+  width: 85.5%;
+  border: 0;
+  padding: 15px;
+}
+.footer-input::placeholder {
+  opacity: 0.2;
+
+}
+.name-input {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+.footer-button {
+  border: 0;
+  height: 50px;
+  width: 70px;
+  background-color: var(--Основной);
+  position: relative;
+  vertical-align: middle;
+  margin-left: -4px;
+}
+.footer-button::before {
+  content: url(/send.svg);
+  position: absolute;
+  color: var(--белый);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer-button:hover {
+  background-color: #EA7600;
+}
+#footer-input {
+  height: 50px;
+  border: 0;
+}
+
+
+.contact-information {
+  margin-top: 60px;
+  font-size: 14px;
+  text-align: center;
+}
+.contact-information > p {
+margin-bottom: 16px;
+}
+.text-rules {
+  font-size: 12px;
+}
+.rules {
+  color: var(--белый);
+}
