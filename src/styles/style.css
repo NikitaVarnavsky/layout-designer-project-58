@@ -241,7 +241,7 @@ section {
   z-index: 1;
 }
 #premature-optimization::before {
-  content: url(../images/background.png);
+  content: url(/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -296,7 +296,7 @@ section {
   
 }
 #distortion-of-novelty::before {
-  content: url(../images/background.png);
+  content: url(/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -304,5 +304,23 @@ section {
   z-index: -1;
 }
 .img-distortion-of-novelty {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+#hyperbolic-depreciation {
+  background: var(--Коричневый);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+#hyperbolic-depreciation::before {
+  content: url(/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+}
+.img-hyperbolic-depreciation {
+  margin-left: -38px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
