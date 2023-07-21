@@ -58,3 +58,57 @@ section {
   padding: 100px 0px;
   width: 1110px;
 }
+.header {
+  background: var(--Светлый);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.header::before {
+  content: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+}
+.main-title {
+  color: var(--Основной);
+}
+.main-title-diff {
+  color: var(--Тёмный);
+}
+.header-section {
+  position: relative;
+}
+.img-main {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+}
+.header-text {
+  column-count: 2;
+  column-gap: 30px;
+}
+.header-inner-text {
+  margin-bottom: 70px;
+}
+
+.header-inner-text-last {
+  margin-bottom: 40px;
+} 
+.header-link {
+  width: 150px;
+  height: 50px;
+  font-weight: 700;
+  color: var(--Светлый);
+  background-color: var(--Основной);
+  text-decoration: none;
+  padding: 12px 24px;
+  text-transform: uppercase;
+}
+.header-link:hover {
+  background-color: #EA7600;
+
+}
