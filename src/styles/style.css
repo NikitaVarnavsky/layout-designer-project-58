@@ -5,3 +5,56 @@
 
   color: #fff;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --белый: #fff;
+  --Полупрозрачный-белый: #d7ccc0;
+  --Светлый: #f5f4f0;
+  --Основной: #fe8a02;
+  --Основной-тёмный: #42413c;
+  --Тёмный: #2a2626;
+  --Полупрозрачный-тёмный: #908d8b;
+  --Коричневый: #b09a81;
+  --Синий: #1085c5;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--Тёмный);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em;
+  font-family: 'Neucha', cursive;
+  /* font-size: 16px; */
+  font-weight: 400;
+  /* line-height: 1.6em; */
+  color: var(--Основной);
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section {
+  margin: 0px auto;
+  padding: 100px 0px;
+  width: 1110px;
+}
