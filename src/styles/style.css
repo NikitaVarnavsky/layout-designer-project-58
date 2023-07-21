@@ -112,3 +112,18 @@ section {
   background-color: #EA7600;
 
 }
+.second-section {
+  text-align: center;
+}
+.second-section-diff {
+  color: var(--Тёмный);
+}
+.header-second-section {
+  margin-bottom: -170px;
+  margin-top: 27px;
+}
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  position: relative;
+  bottom: -200px;
+}
