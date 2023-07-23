@@ -39,7 +39,7 @@ h4,
 h5,
 h6 {
   line-height: 1.2em;
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   color: var(--foo-main);
 }
@@ -157,7 +157,7 @@ section {
 
 .header-navigation {
   line-height: 1.2em;
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-size: 52px;
   font-weight: 400;
   width: 350px;
@@ -179,6 +179,11 @@ section {
   margin-bottom: 20px;
 }
 
+.card-header {
+  margin-bottom: 16px;
+  color: var(--foo-main);
+}
+
 .card:hover {
   background-color: var(--foo-main);
   color: var(--foo-white);
@@ -189,15 +194,10 @@ section {
 }
 
 .number {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, sans-serif;
   font-size: 64px;
   line-height: 1;
   margin-bottom: 40px;
-}
-
-.card-header {
-  margin-bottom: 16px;
-  color: var(--foo-main);
 }
 
 #ikea-effect {
@@ -232,7 +232,7 @@ section {
 }
 
 .light-paragraph {
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-size: 24px;
   color: var(--foo-translucent-dark);
 }
@@ -287,7 +287,7 @@ section {
 }
 
 .premature-optimization-paragraph {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, sans-serif;
   font-size: 24px;
   color: var(--foo-translucent-white);
 }
